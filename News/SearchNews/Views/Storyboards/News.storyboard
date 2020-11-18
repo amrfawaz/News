@@ -171,7 +171,7 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="rae-lC-rmu" firstAttribute="top" secondItem="Q02-98-RQb" secondAttribute="bottom" constant="16" id="1hp-33-EPD"/>
                                             <constraint firstItem="95R-Ef-a3E" firstAttribute="top" secondItem="0xX-UE-zIn" secondAttribute="top" id="2sJ-Xn-X5L"/>
@@ -195,7 +195,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="0xX-UE-zIn" firstAttribute="leading" secondItem="DJF-Op-cwl" secondAttribute="leading" id="3ag-u1-thw"/>
                                     <constraint firstItem="0xX-UE-zIn" firstAttribute="top" secondItem="DJF-Op-cwl" secondAttribute="top" id="KSq-4L-M1g"/>
@@ -204,7 +204,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Hv7-Xg-scH" firstAttribute="bottom" secondItem="DJF-Op-cwl" secondAttribute="bottom" id="Shu-Rh-ST3"/>
                             <constraint firstItem="0xX-UE-zIn" firstAttribute="height" secondItem="k8z-QP-e0D" secondAttribute="height" priority="250" id="co5-xh-XLN"/>
