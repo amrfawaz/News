@@ -29,6 +29,7 @@ class SearchNewsViewController: BaseViewController {
     
     func search() {
         // MARK: - Call search method on view model and handle it's callback
+        hideLottieAnimation()
         showLoadingAnimation()
         viewModel.search(complition: { [weak self] error in
             guard let strongSelf = self else { return }
@@ -40,6 +41,7 @@ class SearchNewsViewController: BaseViewController {
                 if let news = strongSelf.viewModel.articles, !news.isEmpty {
                     strongSelf.newsTableView.reloadData()
                 } else {
+                    strongSelf.newsTableView.reloadData()
                     strongSelf.showEmptyAnimation()
                 }
             }

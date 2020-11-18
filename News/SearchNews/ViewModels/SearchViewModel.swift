@@ -24,6 +24,7 @@ class SearchViewModel {
             if strongSelf.currentPage > 1 {
                 strongSelf.articles?.append(contentsOf: response.articles ?? [])
             } else {
+                strongSelf.articles?.removeAll()
                 strongSelf.articles = response.articles
                 strongSelf.totalPages = (response.totalResults ?? 0) % 20
             }
