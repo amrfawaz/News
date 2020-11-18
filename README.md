@@ -8,3 +8,6 @@ Please follow these steps to run the app:
   
 The application supports from iOS 11 and above.
 The application supports the Dark mode.
+
+
+NOTE **: Use Master Branch
